@@ -45,8 +45,8 @@ const handleOperator = (value) => {
 }
 
 const calculate = () => {
-    const number1 = (num1);
-    const number2 = (num2);
+    const number1 = parseFloat(num1);
+    const number2 = parseFloat(num2);
 
     if (operator === '+') {
         result = number1 + number2;
